@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mohan Sai | AI Agents Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepBuild.me | Autonomous AI Agents & Custom Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; }
+        body { background-color: #030712; color: #f9fafb; font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
     </style>
 </head>
 <body>
-    <h1>Mohan Sai Annadhanam</h1>
-    <p>Software Development Engineer | AI Engineer</p>
-    <p><i>Agentic Website Coming Soon...</i></p>
+
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter">DEEP<span class="text-blue-500">BUILD</span></div>
+        <div class="space-x-8 hidden md:flex">
+            <a href="#services" class="hover:text-blue-400 transition">Services</a>
+            <a href="#work" class="hover:text-blue-400 transition">Our Work</a>
+            <a href="mailto:contact@deepbuild.me" class="bg-blue-600 px-5 py-2 rounded-full hover:bg-blue-700 transition">Get Started</a>
+        </div>
+    </nav>
+
+    <header class="text-center py-24 px-6">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+            We Build the <span class="gradient-text">Autonomous Future</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-10">
+            Custom AI Agents and intelligent automation workflows that scale your business while you sleep.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#services" class="bg-white text-black px-8 py-4 rounded-lg font-bold hover:bg-gray-200 transition">View AI Services</a>
+            <a href="https://github.com/your-username" class="glass-card px-8 py-4 rounded-lg font-bold hover:bg-white/5 transition">Explore GitHub</a>
+        </div>
+    </header>
+
+    <section id="services" class="max-w-7xl mx-auto py-20 px-6">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="text-blue-400 mb-4 text-3xl">🤖</div>
+                <h3 class="text-xl font-bold mb-3">AI Agent Swarms</h3>
+                <p class="text-gray-400 text-sm">Autonomous lead qualification and appointment scheduling agents for high-ticket firms.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="text-purple-400 mb-4 text-3xl">📂</div>
+                <h3 class="text-xl font-bold mb-3">Deep RAG Systems</h3>
+                <p class="text-gray-400 text-sm">Secure "Chat with your Data" platforms using local models for finance and HR compliance.</p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="text-green-400 mb-4 text-3xl">⚡</div>
+                <h3 class="text-xl font-bold mb-3">Workflow Automation</h3>
+                <p class="text-gray-400 text-sm">Custom Python-driven LLM integrations that turn manual processes into 1-click solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center py-20">
+        <h2 class="text-3xl font-bold mb-6">Ready to automate your operations?</h2>
+        <p class="text-gray-500 mb-10">Limited availability for Q1 2026. Book your audit today.</p>
+        <a href="mailto:contact@deepbuild.me" class="text-blue-400 border border-blue-400 px-8 py-3 rounded-full hover:bg-blue-400 hover:text-white transition">
+            Contact@DeepBuild.me
+        </a>
+    </section>
+
+    <footer class="p-10 text-center text-gray-600 text-sm border-t border-white/5">
+        &copy; 2026 DeepBuild.me - AI Agent Engineering
+    </footer>
+
 </body>
 </html>
